@@ -1,6 +1,6 @@
 # Cinema Tickets Code Test
 
-This repository contains Java implementations of a cinema ticket purchasing system. The implementation demonstrates core logic for handling ticket purchases, payment processing, and seat reservations.
+This repository contains Java implementations of a cinema ticket purchasing system, a coding exercise for the job application of Java Software Engineer at DWP. The implementation demonstrates core logic for handling ticket purchases, payment processing, and seat reservations.
 
 ## Table of Contents
 - [Project Structure](#project-structure)
@@ -52,15 +52,12 @@ Test results are available in `cinema-tickets-java/target/surefire-reports/`.
 
 ## License
 
-[Specify your license here]
-
 ---
 
 ## Author
-[Your Name]
+Alan Chan (Application ID: 15375365)
 
 ---
 
 ## Notes
-- Each implementation is self-contained and demonstrates similar business logic.
 - For more details, see the source code in each respective folder.
