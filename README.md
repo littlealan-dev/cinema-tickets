@@ -27,12 +27,16 @@ The Java implementation provides a robust ticket purchasing service with:
 - Enforcement of business rules (e.g., at least one adult per purchase, infants cannot exceed adults, max 25 tickets per purchase)
 - Price calculation for different ticket types (adult, child, infant)
 - Integration with payment and seat reservation services (mocked for testing)
+- Clean separation of validation and calculation logic in utilities class for reusability.
+- Separated error messages to message.properties file for easy internationalization
+- Externalize the maximum ticket purchase limit to application.properties for changing the value without modifying code.
 - Comprehensive unit and integration tests covering:
 	- Account validation
 	- Adult ticket requirements
 	- Price calculation
 	- Seat reservation logic
 	- Ticket count and request validation
+
 
 ### Build
 ```bash
